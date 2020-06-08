@@ -1,0 +1,21 @@
+sum=0;
+startnumber = 100;
+endnumber = 5;
+stepnumber = 7;
+currentnumber = startnumber;
+
+for ( ; currentnumber > endnumber; ){
+   
+    sum += currentnumber;
+    console.log(currentnumber);
+    currentnumber -= stepnumber;
+   
+    
+    console.log(sum);
+    
+     
+    
+
+//console.log("a");
+}
+console.log("sum is", sum);
